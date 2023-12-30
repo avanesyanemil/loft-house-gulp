@@ -1,0 +1,45 @@
+.video{
+ text-align: center;
+ position: relative;
+ overflow: hidden;
+
+ &::after{
+  content: "IV";
+  position: absolute;
+  top: 0;
+  left: calc(50% + 555px);
+  transform: translate(-50%,0%);
+  font-size: 400px;
+  font-family: $font-accent;
+  opacity: 0.02;
+  line-height: 1.55;
+
+ }
+}
+
+.video__link{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  
+}
+
+.video-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    transition: all 0.2s ease-in;
+}
+
+.video__link:hover .video-icon{
+        transform:translate(-50%, -50%) scale(1.2);
+}
+
+.video-img{
+    transition: all 0.2s ease-in;
+    &:hover{
+        filter: contrast(110%) brightness(1.4) saturate(1.4);
+    }
+}

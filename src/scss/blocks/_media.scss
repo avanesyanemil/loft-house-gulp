@@ -1,0 +1,153 @@
+@media screen and (max-width:929px) {
+    .header__nav-btn{
+        display: block;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .header{
+        min-height: unset;
+        row-gap: 50px;
+    }
+
+    .header__title{
+        font-size: 32px;
+        padding-bottom: 100px;
+    }
+
+    .header__footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .text-right{
+        text-align: center;
+    }
+
+    .info{
+        font-size: 14px;
+    }
+
+    .benefits{
+        padding: 120px 0;
+        position: relative;
+    
+        &::after{
+         display: none;
+        }
+     }
+
+     .benefits__row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+        gap: 40px 30px;
+    }
+
+     .benefits__item-img{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+   
+    .benefits__item-text{
+        font-size: 16px;
+        
+    }
+
+    .appartments{
+    
+       &::before{
+       display: none;
+       }
+    }
+
+    .title-2{
+       font-size: 28px;
+    }
+
+    .appartments__title{
+        margin-bottom: 44px;
+    }
+
+    .appartments__cards{
+        grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    }
+
+    .card__title{
+        left: 30px;
+        right: 20px;
+        bottom: 24px;
+        font-size: 18px;
+    }
+
+    .cta{
+        padding: 60px 0;
+    }
+    
+    .cta__wrapper{
+         grid-template-columns: 1fr;
+    }
+    
+    .cta__text{
+       font-size: 14px;
+    }
+    
+    .cta__form{
+        grid-template-columns: 1fr;
+    }
+
+    .form__privacy{
+        &--bottom{
+            grid-row: 4/5;
+        }
+    }
+
+    .video{
+        &::after{
+            display: none;
+        }
+    }
+
+    .video-icon{
+        width: 80px;
+        height: 80px;
+    }
+
+    .map{
+        padding: 90px 0;
+
+        &::before{
+            display: none;
+        }
+    }
+
+    .map__title{
+        margin-bottom: 44px;
+     }
+
+     .feedback{
+        padding-bottom: 90px;
+      }
+      
+      .feedback__title{
+         margin-bottom: 19px;
+      }
+      
+      .feedback__form{
+        grid-template-columns: 1fr;
+      }
+
+      .footer{
+        padding-top: 36px;
+        padding-bottom: 25px;
+      }
+
+      .footer__grid{
+        gap: 40px 30px;
+        grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+       
+     }
+}

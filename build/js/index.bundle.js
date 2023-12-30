@@ -1,0 +1,1 @@
+!function(){const o=document.querySelector(".nav-icon-btn"),e=document.querySelector(".nav-icon"),c=document.querySelector(".header__top-row");o.onclick=function(){e.classList.toggle("nav-icon--active"),c.classList.toggle("header__top-row--mobile"),document.body.classList.toggle("no-scroll")}}();
